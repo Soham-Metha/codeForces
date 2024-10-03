@@ -1,0 +1,7 @@
+m = int(input())
+n = int(input())
+o = int(input())
+mn = max(m+n,m*n)
+no = max(o+n,o*n)
+mx = max(max(m*no,m+no),max(mn*o,mn+o))
+print(mx)
